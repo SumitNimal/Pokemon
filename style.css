@@ -1,0 +1,146 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    font-family: "Stylish", serif;
+    color: whitesmoke;
+    cursor: default;
+}
+
+.container {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 800;
+    height: 725px;
+}
+
+.head-container{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 125px;
+    position: relative;
+}
+#pokemon-image {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    left: 75px;
+    top: 100px;
+}
+
+.name-and-back-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.pokemon-name {
+    font-size: 40px;
+}
+#pokemon-id{
+    font-size: 20px;
+}
+.image-and-navigation-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 400px;
+}
+
+.navigation-button,
+.back-image {
+    padding: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.navigation-button:hover,
+.back-image:hover {
+    box-shadow: 0 0 10px black;
+}
+
+.pokemon-details-container {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    align-items: center;
+    width: 400px;
+    padding: 40px 0px 20px 0px;
+    box-shadow: 0px 0px 10px black;
+    background-color: rgb(225, 225, 225);
+    height: 400px;
+    gap: 30px;
+    border-radius: 15px;
+}
+
+.pokemon-type-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 24px;
+}
+
+.pokemon-type {
+    padding: 5px 15px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+
+.body-measure-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    font-size: 18px;
+}
+
+.body-measure-div {
+    background-color: rgb(86, 86, 86);
+    display: flex;
+    justify-content: center;
+    padding: 5px 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.all-stats-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    color: rgb(112, 110, 110);
+}
+
+.single-stat-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 350px;
+}
+
+.stat-bar-div {
+    width: 200px;
+    height: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px black;
+}
+
+.stat-name-div {
+    width: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
