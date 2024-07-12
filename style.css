@@ -24,6 +24,7 @@ body {
 .head-container{
     height: 300px;
     display: flex;
+    width: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -35,7 +36,7 @@ body {
     height: 250px;
     position: absolute;
     left: 75px;
-    top: 110px;
+    top: 100px;
 }
 
 .name-and-back-div {
@@ -56,7 +57,7 @@ body {
     align-items: center;
     justify-content: space-between;
     position: relative;
-    width: 400px;
+    width: 100%;
 }
 
 .navigation-button,
@@ -77,7 +78,7 @@ body {
     flex-direction: column;
     justify-content:flex-end;
     align-items: center;
-    width: 400px;
+    width: 100%;
     padding: 40px 0px 20px 0px;
     box-shadow: 0px 0px 10px black;
     background-color: rgb(225, 225, 225);
@@ -123,24 +124,25 @@ body {
     gap: 10px;
     font-size: 18px;
     color: rgb(112, 110, 110);
+    width: 100%;
 }
 
 .single-stat-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 350px;
+    width: 85%;
 }
 
 .stat-bar-div {
-    width: 200px;
+    width: 60%;
     height: 10px;
     border-radius: 5px;
     box-shadow: 0px 0px 2px black;
 }
 
 .stat-name-div {
-    width: 50px;
+    width: 10%;
     display: flex;
     justify-content: flex-end;
 }
