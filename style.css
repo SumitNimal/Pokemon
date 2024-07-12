@@ -2,6 +2,7 @@
 * {
     margin: 0;
     padding: 0;
+    transition: all 0.25s;
 }
 
 body {
@@ -28,7 +29,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 125px;
+    gap: 120px;
     position: relative;
 }
 #pokemon-image {
@@ -62,8 +63,11 @@ body {
 
 .navigation-button,
 .back-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 5px;
-    border-radius: 20px;
+    border-radius: 30px;
     cursor: pointer;
     transition: all 0.3s;
 }
@@ -145,4 +149,17 @@ body {
     width: 10%;
     display: flex;
     justify-content: flex-end;
+}
+
+@media (max-width: 425px) {
+    .container{
+        width: 90%;
+    }
+    #pokemon-image {
+        width: 70%;
+        height: 70%;
+        position: absolute;
+        left: 15%;
+        top: 140px;
+    }
 }
