@@ -42,7 +42,7 @@ function displayPokemon(id,data){
 
     //image , name and id 
     pokemonNameElement.innerText = firstLetterCapital(data.name);
-    pokemonImageElement.src = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${id}.svg`;
+    pokemonImageElement.src = `./Pokemon_Images/${id}.svg`;
     pokemonIdElement.innerText = `#${id}`;
 
     //types
